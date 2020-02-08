@@ -1,4 +1,4 @@
-package diomov.unit1_basics;
+package by.diomov.unit1_basics;
 
 import java.util.Scanner;
 

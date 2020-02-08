@@ -1,12 +1,12 @@
-package diomov.unit1_basics;
-
+package by.diomov.unit1_basics;
 import java.util.Scanner;
 
-public class Task1_2 {
+public class Task1_1 {
     public static void main(String[] args) {
         double a, b, c;
 
         Scanner input = new Scanner(System.in);
+
         System.out.print("a= ");
         a = input.nextDouble();
         System.out.print("b= ");
@@ -14,10 +14,8 @@ public class Task1_2 {
         System.out.print("c= ");
         c = input.nextDouble();
 
-        double result = (b + Math.sqrt(b * b + 4 * a * c)) / (2 * a) - Math.pow(a, 3) * c + Math.pow(b, -2);
+        double z = ((a - 3.0) * b / 2.0 + c);
 
-        System.out.printf("result= %.5f ", result);
-        System.out.println();
+        System.out.println("z= ((" + a + "-3)*" + b + "/2)+" + c + "=" + z);
     }
 }
-
